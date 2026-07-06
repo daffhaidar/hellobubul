@@ -118,45 +118,6 @@ hellobubul/
 └── README.md
 ```
 
----
-
-## 🏃 Quick Start
-
-### Prerequisites
-- Node.js 18+ 
-- npm or yarn
-
-### Installation
-
-```bash
-# Clone repository
-git clone https://github.com/daffhaidar/hellobubul.git
-cd hellobubul
-
-# Install dependencies
-npm install
-
-# Run development server
-npm run dev
-
-# Open http://localhost:3000
-```
-
-### Build & Deploy
-
-```bash
-# Build for production
-npm run build
-
-# Start production server
-npm start
-
-# Deploy to Vercel (auto-deploys on push to main)
-vercel --prod
-```
-
----
-
 ## 📊 Current Metrics
 
 | Metric | Target | Current |
@@ -238,7 +199,7 @@ copies or substantial portions of the Software.
 - **Email:** hellobubul.id@gmail.com
 - **LinkedIn:** [Hellobubul](https://linkedin.com/company/hellobubul) (coming soon)
 
-**Founder:** Daffa Haidar - [LinkedIn](https://linkedin.com/in/daffhaidar)
+**Founder:** Muhammad Daffa Haidar Falah - [LinkedIn](https://linkedin.com/in/daffhaidar)
 
 ---
 
