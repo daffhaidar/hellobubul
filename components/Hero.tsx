@@ -80,7 +80,7 @@ export default function Hero() {
             </a>
             
             <a 
-              href="https://instagram.com/hellobubul" 
+              href="https://instagram.com/hellobubul.id" 
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-700 px-8 py-4 rounded-full font-semibold text-lg border-2 border-gray-300 hover:border-orange-500 hover:text-orange-600 transition-all duration-300"

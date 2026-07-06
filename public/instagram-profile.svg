@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background Circle (Orange Gradient) -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f97316;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="250" fill="url(#bgGrad)"/>
+  
+  <!-- Cat (left side, scaled up) -->
+  <g id="cat">
+    <!-- Cat ears -->
+    <polygon points="144,144 176,112 208,144" fill="#fbbf24"/>
+    <polygon points="208,144 240,112 272,144" fill="#fbbf24"/>
+    <!-- Cat head -->
+    <circle cx="208" cy="224" r="96" fill="#fbbf24"/>
+    <!-- Cat eyes -->
+    <circle cx="176" cy="208" r="16" fill="#1f2937"/>
+    <circle cx="240" cy="208" r="16" fill="#1f2937"/>
+    <!-- Cat nose -->
+    <circle cx="208" cy="240" r="12" fill="#f43f5e"/>
+    <!-- Cat whiskers -->
+    <line x1="128" y1="224" x2="160" y2="232" stroke="#1f2937" stroke-width="6" stroke-linecap="round"/>
+    <line x1="128" y1="240" x2="160" y2="240" stroke="#1f2937" stroke-width="6" stroke-linecap="round"/>
+    <line x1="256" y1="232" x2="288" y2="224" stroke="#1f2937" stroke-width="6" stroke-linecap="round"/>
+    <line x1="256" y1="248" x2="288" y2="240" stroke="#1f2937" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Dog (right side, scaled up) -->
+  <g id="dog">
+    <!-- Dog ears -->
+    <ellipse cx="304" cy="176" rx="24" ry="40" fill="#fde68a" transform="rotate(-20 304 176)"/>
+    <ellipse cx="400" cy="176" rx="24" ry="40" fill="#fde68a" transform="rotate(20 400 176)"/>
+    <!-- Dog head -->
+    <circle cx="352" cy="256" r="88" fill="#fde68a"/>
+    <!-- Dog eyes -->
+    <circle cx="320" cy="240" r="16" fill="#1f2937"/>
+    <circle cx="384" cy="240" r="16" fill="#1f2937"/>
+    <!-- Dog nose -->
+    <ellipse cx="352" cy="280" rx="20" ry="16" fill="#1f2937"/>
+    <!-- Dog mouth -->
+    <path d="M 336 296 Q 352 312 368 296" stroke="#1f2937" stroke-width="6" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Paw print (bottom, scaled up) -->
+  <g id="paw">
+    <circle cx="256" cy="400" r="24" fill="#ffffff" opacity="0.95"/>
+    <circle cx="216" cy="376" r="12" fill="#ffffff" opacity="0.95"/>
+    <circle cx="296" cy="376" r="12" fill="#ffffff" opacity="0.95"/>
+    <circle cx="232" cy="416" r="12" fill="#ffffff" opacity="0.95"/>
+    <circle cx="280" cy="416" r="12" fill="#ffffff" opacity="0.95"/>
+  </g>
+</svg>

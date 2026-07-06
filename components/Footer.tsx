@@ -59,8 +59,8 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="#vet" className="text-gray-400 hover:text-orange-400 transition-colors">
-                    Untuk Vet
+                  <a href="/privacy" className="text-gray-400 hover:text-orange-400 transition-colors">
+                    Privacy Policy
                   </a>
                 </li>
               </ul>
@@ -89,10 +89,10 @@ export default function Footer() {
                 untuk anabul Indonesia 🇮🇩
               </p>
               <div className="flex gap-6 text-sm text-gray-500">
-                <a href="#" className="hover:text-orange-400 transition-colors">
+                <a href="/privacy" className="hover:text-orange-400 transition-colors">
                   Privacy Policy
                 </a>
-                <a href="#" className="hover:text-orange-400 transition-colors">
+                <a href="/terms" className="hover:text-orange-400 transition-colors">
                   Terms of Service
                 </a>
               </div>
