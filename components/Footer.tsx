@@ -44,12 +44,12 @@ export default function Footer() {
               <h4 className="font-semibold text-lg mb-4">Quick Links</h4>
               <ul className="space-y-2">
                 <li>
-                  <a href="#about" className="text-gray-400 hover:text-orange-400 transition-colors">
+                  <a href="/tentang" className="text-gray-400 hover:text-orange-400 transition-colors">
                     Tentang Kami
                   </a>
                 </li>
                 <li>
-                  <a href="#features" className="text-gray-400 hover:text-orange-400 transition-colors">
+                  <a href="/fitur" className="text-gray-400 hover:text-orange-400 transition-colors">
                     Fitur
                   </a>
                 </li>
