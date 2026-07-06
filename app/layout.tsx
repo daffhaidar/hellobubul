@@ -17,6 +17,11 @@ export const metadata: Metadata = {
   description: "Temukan vet terbaik, obat original, dan komunitas pecinta anabul dalam satu platform.",
   keywords: ["kucing", "anjing", "vet", "hewan", "adopsi", "obat hewan", "indonesia"],
   authors: [{ name: "Hellobubul Team" }],
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+    ],
+  },
   openGraph: {
     title: "Hellobubul - Platform Terpercaya untuk Anabul Indonesia",
     description: "Temukan vet terbaik, obat original, dan komunitas pecinta anabul",
