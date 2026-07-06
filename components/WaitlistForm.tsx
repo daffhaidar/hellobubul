@@ -13,8 +13,8 @@ export default function WaitlistForm() {
     e.preventDefault();
     setError('');
 
-    // Replace with your Formspree endpoint
-    const FORMSPREE_ENDPOINT = 'https://formspree.io/f/YOUR_FORM_ID';
+    // Formspree endpoint for Hellobubul waitlist
+    const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xvzjlnal';
 
     try {
       const response = await fetch(FORMSPREE_ENDPOINT, {

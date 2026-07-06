@@ -1,6 +1,6 @@
 'use client';
 
-import { Instagram, Twitter, Mail, Heart } from 'lucide-react';
+import { Instagram, Mail, Heart } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -21,7 +21,7 @@ export default function Footer() {
               </p>
               <div className="flex gap-4">
                 <a 
-                  href="https://instagram.com/hellobubul" 
+                  href="https://instagram.com/hellobubul.id" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-orange-600 transition-colors"
@@ -30,16 +30,7 @@ export default function Footer() {
                   <span className="sr-only">Instagram</span>
                 </a>
                 <a 
-                  href="https://twitter.com/hellobubul" 
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-orange-600 transition-colors"
-                >
-                  <Twitter className="w-5 h-5" />
-                  <span className="sr-only">Twitter</span>
-                </a>
-                <a 
-                  href="mailto:hello@hellobubul.com"
+                  href="mailto:hellobubul.id@gmail.com"
                   className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-orange-600 transition-colors"
                 >
                   <Mail className="w-5 h-5" />
@@ -79,7 +70,7 @@ export default function Footer() {
             <div>
               <h4 className="font-semibold text-lg mb-4">Kontak</h4>
               <ul className="space-y-2 text-gray-400">
-                <li>hello@hellobubul.com</li>
+                <li>hellobubul.id@gmail.com</li>
                 <li>Jakarta, Indonesia</li>
                 <li className="pt-2">
                   <span className="text-sm text-gray-500">
